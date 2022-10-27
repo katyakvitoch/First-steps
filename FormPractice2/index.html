@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="obnulenie.css">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <h1>Hi forms!</h1> -->
+    <form action="#" method="post" enctype="multipart/form-data">
+    <div>
+        <p>Имя</p>
+        <input type="text" name="username" tabindex="1">
+    </div>
+    <div>
+        <p>Пароль</p>
+        <input type="password" name="pass" tabindex="2">
+    </div>
+    <div>
+        <p>Телефон</p>
+        <input type="tel" name="tel" tabindex="3">
+    </div>
+    <div>
+        <p>Пол</p>
+        <div>
+        <input type="radio" name="sex" tabindex="4">Мужской<br>
+        <input type="radio" name="sex" tabindex="4">Женский
+        </div>
+    </div>
+    <div>
+        <p>Имущество</p>
+        <div>
+            <input type="checkbox" checked name="bicycle" tabindex="5"> Велик<br>
+            <input type="checkbox" name="key" tabindex="6"> Ключ<br>
+            <input type="checkbox" name="house" tabindex="7"> Дом
+        </div>
+    </div>
+    <div>
+        <p>Дополнительная информация</p>
+        <div>
+            <textarea name="additionalInfo" tabindex="8" rows="2"></textarea>
+        </div>
+        <div>
+            <p>Прикрепить фото</p>
+            <div>
+                <input type="file" tabindex="9" name="photo">
+            </div>
+
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <div>
+                <select tabindex="10" name="color">
+                    <option value="red">Красный</option>
+                    <option value="green">Зеленый</option>
+                    <option value="blue">Голубой</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <p>Действия</p>
+            <button type="reset" tabindex="11">Сбросить</button> <button tabindex="12" type="submit">Отправить</button>
+        </div>
+    </div>
+</form>
+<p class="lorem">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quia quo velit, cumque ab sunt deserunt libero aspernatur quis labore tempore veritatis quos numquam! Distinctio repellat numquam assumenda a harum!
+</p>
+<p class="italic">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil quo, ratione unde saepe repellat ullam molestiae sapiente fugit voluptate vel iure ipsum id, accusantium illum incidunt. Ullam, porro dolor.
+</p>
+</body>
+</html>

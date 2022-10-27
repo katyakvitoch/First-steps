@@ -1,0 +1,125 @@
+* {
+margin:0;
+padding:0;
+border:0;
+}
+*,*:before,*:after{
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+:focus, :activate{outline: none;}
+a:focus, a:active{outline: none;}
+nav, footer, header, aside{display: block;}
+html, body{
+height: 100%;
+width:100%;
+font-size: 100%;
+line-height:1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border:0;}
+a, a:visited{text-decoration: none}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img {vertical-align: top}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:400;}
+
+.wrapper {
+    width: 100%;
+    height: 1400px;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+.content-box {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid #000; */
+    margin-top: 70px;
+}
+.first-string {
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: 4px;
+    width: 100%;
+    margin: 40px 0 25px 0;
+    text-align: center;
+    opacity: 0.4;
+    font-weight: bolder;
+    
+}
+.second-string {
+    font-family: 'Lora', serif;
+    font-size: 35px;
+    opacity: 0.70;
+    width: 89%;
+    text-align: center;
+    margin: auto;
+    
+}
+img {
+    display: block;
+    width: 100%;
+    max-width: 99%;
+    margin: auto;
+    margin-top: 80px;
+    transform: translate(-5px, 0);
+}
+.first, .second {
+    font-family: 'Lora', serif;
+    font-size: 23px;
+    opacity: 0.55;
+    width: 100%;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 90px;
+    line-height: 40px;
+    padding: 5%;
+    word-spacing: 3px;
+}
+.second {
+    margin-top: -40px;
+}
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* padding-left: 20px; */
+    word-spacing: 3px;
+    margin-bottom: 30px;
+
+}
+.list li {
+    margin-bottom: 15px;
+    background: url('li.svg') no-repeat left center;
+    padding-left: 30px;
+    margin-left: 40px;
+
+}
+
+.firststLi li {
+    /* font-style: italic; */
+    /* font-weight: 500; */
+    /* margin-bottom: 30px; */
+}
+.secondLi {
+    color: lightsteelblue;
+    /* margin-bottom: 30px; */
+}
+.thirdLi {
+    font-weight: bold;
+    opacity: 0.8;
+}
+.forthLi {
+    color: grey;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
